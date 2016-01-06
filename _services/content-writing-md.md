@@ -1,6 +1,6 @@
 ---
 title: Content Writing
-image_path: /img/pen.png
+image_path: /img/keyboard.png
 ---
 
-Beautiful, clean designs tailored to your business
+Fresh, relevant content on-demand
