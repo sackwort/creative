@@ -1,6 +1,6 @@
 ---
-title: Web Design
-image_path: /img/pen.png
+title: SEO
+image_path: /img/eye.png
 ---
 
-Beautiful, clean designs tailored to your business
+Get your site to the top of Google
