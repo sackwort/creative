@@ -1,5 +1,4 @@
 ---
-layout: infopages
 title: Contact
 email: sackwort@gmail.com
 phone: 01773 714571
