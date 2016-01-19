@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<section class="bg-dark">
+  <div class="text-center">
+    <h1>{{ page.title }}</h1>
+  </div>
+</section>
+
+<section id="{{ page.title | downcase}}" {% if page.title == 'About' %} class="bg-primary" {% endif %}>
+  <div class="container">
+      <div class="row">
+          <div {% if page.title == 'Services' %} class="col-lg-12 text-center" {% else %} class="col-lg-8 col-lg-offset-2 text-center" {% endif %} >
+              <h2 class="section-heading">{{ page.heading }}</h2>
+              <hr {% if page.title == 'About' %} class="light" {% else %} class="primary" {% endif %}>
+              {{ content }}
+              {% if page.title == 'About' %}
+              <a href="#" class="btn btn-default btn-xl">Get Started!</a>
+              {% endif %}
+          </div>
+          {% if page.title == 'Contact' %}
+          <div class="col-lg-4 col-lg-offset-2 text-center">
+              <i class="fa fa-phone fa-3x wow bounceIn"></i>
+              <p>{{ page.phone }}</p>
+          </div>
+          <div class="col-lg-4 text-center">
+              <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+              <p><a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+          </div>
+          {% endif %}
+          {% if page.title == 'Services' %}
+          <div class="container">
+              <div class="row">
+                  {% for service in site.services %}
+                    <div class="col-lg-3 col-md-6 text-center">
+                      <div class="service-box">
+                        <img src="{{ service.image_path }}" alt="{{ service.title }}"/>
+                        <h3>{{ service.title }}</h3>
+                        <p class="text-muted">{{ service.content }}</p>
+                      </div>
+                    </div>
+                  {% endfor %}
+              </div>
+          </div>
+          {% endif %}
+      </div>
+  </div>
+</section>
