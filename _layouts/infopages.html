@@ -13,7 +13,6 @@ layout: default
       <div class="row">
           <div {% if page.title == 'Services' %} class="col-lg-12 text-center" {% else %} class="col-lg-8 col-lg-offset-2 text-center" {% endif %} >
               <h2 class="section-heading editable">{{ page.heading }}</h2>
-              <hr {% if page.title == 'About' %} class="light" {% else %} class="primary" {% endif %}>
               {{ content }}
               {% if page.title == 'About' %}
               <a href="#" class="btn btn-default btn-xl">Get Started!</a>
