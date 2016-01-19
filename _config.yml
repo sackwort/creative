@@ -5,6 +5,7 @@ permalink: pretty
 defaults:
   -
     scope:
-      path: "contact"
+      path: ""
+      title: "contact"
     values:
       layout: "infopages"
