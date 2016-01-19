@@ -1,3 +1,10 @@
 collections:
   - services
 permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: "contact"
+    values:
+      layout: "infopages"
