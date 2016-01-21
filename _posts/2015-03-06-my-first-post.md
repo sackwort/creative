@@ -9,7 +9,7 @@ the site to see your changes. You can rebuild the site in many different ways, b
 the most common way is to run `jekyll serve`, which launches a web server and
 auto-regenerates your site when a file is updated.
 
-<p class="img-cont one editable" markdown="1">![an image][eye]</p>
+<p class="img-cont one" markdown="1">![an image][eye]</p>
 <p class="img-cont two" markdown="1">![an image](/img/eye.png "look through the eye")</p>
 
 To add new posts, simply add a file in the `_posts` directory that follows the
