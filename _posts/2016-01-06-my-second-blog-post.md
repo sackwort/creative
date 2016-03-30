@@ -1,7 +1,10 @@
 ---
 layout: post
 title: My Second Blog Post
+published: true
 ---
+
+## New headline
 
 Quisque ipsum tellus; tincidunt vitae lacus eu, congue cursus diam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean at felis nulla. Ut blandit fringilla dolor a rutrum? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur consequat gravida odio; id imperdiet tellus pellentesque at. Aenean condimentum tellus sed massa consequat aliquet. Aliquam erat volutpat. Etiam at felis eget diam congue pulvinar non vitae orci? Cras et dictum odio.
 
